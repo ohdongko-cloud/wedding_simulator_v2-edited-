@@ -18,18 +18,18 @@ export const VENUES: Venue[] = [
   },
   {
     name: "약현성당",
-    halls: [{ name: "대성전 (성당, 0석)", price: 150 }],
+    halls: [{ name: "대성전 (성당, 200석)", price: 150 }],
   },
   {
     name: "명동성당",
     halls: [
-      { name: "파밀리아홀 (성당, 0석)", price: 200 },
-      { name: "대성전 (성당, 0석)", price: 400 },
+      { name: "파밀리아홀 (성당, 200석)", price: 200 },
+      { name: "대성전 (성당, 500석)", price: 400 },
     ],
   },
   {
     name: "가회동성당",
-    halls: [{ name: "대성전 (성당, 0석)", price: 220 }],
+    halls: [{ name: "대성전 (성당, 200석)", price: 220 }],
   },
   {
     name: "그랜드인터컨티넨탈서울파르나스",
@@ -246,6 +246,13 @@ export const VENUE_ITEMS: CheckItem[] = [
     customPrice: "",
     checked: false,
   },
+  {
+    id: "vi18",
+    name: "부토니아",
+    avgPrice: 5,
+    customPrice: "",
+    checked: false,
+  },
 ];
 
 export const STUDIO_ITEMS: CheckItem[] = [
@@ -266,7 +273,7 @@ export const STUDIO_ITEMS: CheckItem[] = [
   },
   {
     id: "st4",
-    name: "클러리 촬영",
+    name: "들러리 촬영",
     avgPrice: 7,
     customPrice: "",
     checked: false,
@@ -376,7 +383,7 @@ export const DRESS_ITEMS: CheckItem[] = [
   },
   {
     id: "dr6",
-    name: "2부 드레스",
+    name: "2부 드레스(피로연 드레스)",
     avgPrice: 44,
     customPrice: "",
     checked: false,
@@ -525,6 +532,52 @@ export const MAKEUP_ITEMS: CheckItem[] = [
     id: "mk16",
     name: "휴무일 진행비",
     avgPrice: 17,
+    customPrice: "",
+    checked: false,
+  },
+];
+
+export const EXTRA_ITEMS: CheckItem[] = [
+  {
+    id: "ex1",
+    name: "청첩장",
+    avgPrice: 10,
+    customPrice: "",
+    checked: false,
+  },
+  {
+    id: "ex2",
+    name: "결혼반지",
+    avgPrice: 0,
+    customPrice: "",
+    checked: false,
+  },
+  { id: "ex3", name: "예물", avgPrice: 0, customPrice: "", checked: false },
+  {
+    id: "ex4",
+    name: "프로포즈",
+    avgPrice: 50,
+    customPrice: "",
+    checked: false,
+  },
+  {
+    id: "ex5",
+    name: "청첩장모임",
+    avgPrice: 200,
+    customPrice: "",
+    checked: false,
+  },
+  {
+    id: "ex6",
+    name: "답럐품",
+    avgPrice: 50,
+    customPrice: "",
+    checked: false,
+  },
+  {
+    id: "ex7",
+    name: "관리(네일/마사지 등)",
+    avgPrice: 0,
     customPrice: "",
     checked: false,
   },
