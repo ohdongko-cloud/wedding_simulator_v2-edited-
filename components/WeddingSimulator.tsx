@@ -5,7 +5,6 @@ import SummaryCard from "./SummaryCard";
 import MealSection from "./MealSection";
 import VenueSection from "./VenueSection";
 import ItemTable from "./ItemTable";
-import ExtraSection from "./ExtraSection";
 import { CheckItem } from "../lib/types";
 import {
   VENUE_ITEMS,
